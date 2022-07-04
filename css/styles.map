@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss"
+	],
+	"sourcesContent": [
+		"// Imports from Sub-folders/index.scss\r\n\r\n\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}
