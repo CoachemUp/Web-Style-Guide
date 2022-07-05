@@ -2,10 +2,16 @@
 	"version": 3,
 	"file": "styles.css",
 	"sources": [
-		"../scss/styles.scss"
+		"../scss/styles.scss",
+		"../scss/utilities/_index.scss",
+		"../scss/utilities/_mixins.scss",
+		"../scss/utilities/_variables.scss"
 	],
 	"sourcesContent": [
-		"// Imports from Sub-folders/index.scss\r\n\r\n\r\n\r\n"
+		"// Imports from Sub-folders/index.scss\r\n\r\n@import 'utilities/index'\r\n\r\n",
+		"//Utilities import\r\n\r\n@import 'mixins', \r\n        'variables'",
+		"",
+		"// Color Variables  \r\n$softcyan: #58e1c1;\r\n$lilghtcyan: #51ddfc;\r\n$softred: #fd7856;\r\n$lightred: #e4757a;\r\n$lightviolet: #927bc1;\r\n\r\n//Breakpoint Variable\r\n$dskt-break: 768px;"
 	],
 	"names": [],
 	"mappings": ""
