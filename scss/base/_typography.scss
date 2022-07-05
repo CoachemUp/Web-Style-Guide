@@ -10,7 +10,7 @@
 p {
     line-height: 1.45em;
   }
-  
+
 a {
     text-decoration: none;
   }
@@ -19,7 +19,7 @@ a {
 /*              Typography                       */
 /* ============================================= */
 .headline-primary {
-    color: #58e1c1;
+    color: $lt-cyan;
     margin-left: 10px;
   }
   
@@ -39,7 +39,7 @@ a {
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid #58e1c1;
+    border-left: 8px solid $lt-cyan;
     border-radius: 5px;
 }
   
