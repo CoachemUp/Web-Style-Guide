@@ -4,6 +4,14 @@ $lt-cyan: #51ddfc;
 $soft-red: #fd7856;
 $lt-red: #e4757a;
 $lt-violet: #927bc1;
+$green: #63cc82;
 
 //Breakpoint Variable
 $dsktop-break: 768px;
+
+//Lighten Buttons on Hover
+$default: lighten($lt-cyan, 15%);
+$error: lighten($lt-red, 15%);
+$info: lighten($lt-violet, 15%);
+$success: lighten($green, 15%);
+$warning: lighten($soft-red, 15%);

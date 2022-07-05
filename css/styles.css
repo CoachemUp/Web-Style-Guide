@@ -435,31 +435,57 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  transition: 2s;
 }
 
-/* line 15, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
+/* line 16, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 19, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
+/* line 18, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
+.default:hover {
+  background-color: #9cecfd;
+}
+
+/* line 23, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
+/* line 25, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
+.error:hover {
+  background-color: #f1b5b8;
+}
+
+/* line 30, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
+/* line 32, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
+.info:hover {
+  background-color: #bdafd9;
+}
+
+/* line 37, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
+/* line 39, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+/* line 44, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 46, ../Coding Projects/Web-Style-Guide/scss/component/_button.scss */
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
@@ -611,6 +637,33 @@ a {
 }
 
 /* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+/* line 5, ../Coding Projects/Web-Style-Guide/scss/component/_navigation.scss */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 10, ../Coding Projects/Web-Style-Guide/scss/component/_navigation.scss */
+.nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+}
+
+/* line 20, ../Coding Projects/Web-Style-Guide/scss/component/_navigation.scss */
+.nav-link:hover {
+  color: #fff;
+  background-color: #58e1c1;
+}
+
+/* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
@@ -713,33 +766,6 @@ a {
     margin-left: initial;
     margin-right: initial;
   }
-}
-
-/* ============================================= */
-/*              Navigation                       */
-/* ============================================= */
-/* line 5, ../Coding Projects/Web-Style-Guide/scss/component/_navigation.scss */
-.nav {
-  padding-left: 0;
-  flex-basis: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* line 12, ../Coding Projects/Web-Style-Guide/scss/component/_navigation.scss */
-.nav-link {
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px 0;
-  display: block;
-  width: 100%;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
-}
-
-/* line 23, ../Coding Projects/Web-Style-Guide/scss/component/_navigation.scss */
-.nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1;
 }
 
 /*# sourceMappingURL=styles.css.map */
